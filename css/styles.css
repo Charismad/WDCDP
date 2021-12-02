@@ -55,10 +55,16 @@ body {
     padding: 15px;
     display: flex;
     font-size: .8em;
+    justify-content: space-between;
 }
 
 .leftnav {
     margin-right: auto;
+}
+
+.svglogo {
+    width: 20%;
+    height: 80px;
 }
 
 .rightnav {
@@ -67,14 +73,8 @@ body {
 }
 
 #logo {
-    display: flex;
     width: 100%;
-    height: 50px;
     fill: white;
-}
-
-#logo.nav {
-    justify-content: left;
 }
 
 
