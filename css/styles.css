@@ -63,7 +63,7 @@ body {
 }
 
 .svglogo {
-    width: 20%;
+    width: 40%;
     height: 80px;
 }
 
@@ -151,6 +151,42 @@ a:active.nav2 {
 
 /* gallery */
 
+.wrapper {
+    height: 200px;
+    width: 632px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.button-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.carousel {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease;
+}
+
+.card {
+    background: black;
+    min-width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
 
 /* END of gallery */
 
@@ -190,7 +226,7 @@ form {
     margin: 1em;
     padding: 20px;
     height: 45vh;
-    background-color: #F1F1F1;
+    background-color: #48474c;
     font-family: 'Montserrat', sans-serif;
     border: 1px solid black;
     overflow: scroll;
