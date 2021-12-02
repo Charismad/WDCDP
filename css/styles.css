@@ -70,9 +70,11 @@ body {
     display: flex;
     width: 100%;
     height: 50px;
-    border: 2px solid white;
     fill: white;
-    justify-content: space-between;
+}
+
+#logo.nav {
+    justify-content: left;
 }
 
 
@@ -101,6 +103,10 @@ h1 {
 
 .hero-txt {
     font-weight: 300;
+    font-style: italic;
+}
+
+.contactheader {
     font-style: italic;
 }
 
