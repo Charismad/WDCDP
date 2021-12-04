@@ -243,37 +243,44 @@ a:active.nav2 {
 /* TRUCK picture section */
 
 #card1T {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Trucks/Shootingstars.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card2T {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Trucks/Loweboyz.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card3T {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Trucks/Stiner.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card4T {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Trucks/amazinglog.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card5T {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Trucks/prosper88.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card6T {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Trucks/myice.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card7T {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Trucks/CityBoy.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -284,37 +291,44 @@ a:active.nav2 {
 /* SIGN picture section */
 
 #card1S {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/carwash.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card2S {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Signs/wdsign.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card3S {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Signs/churshsign.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card4S {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Signs/Wildlifesign.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card5S {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Signs/LasMon.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card6S {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/Signs/Largeelec.jpeg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card7S {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-image: url('../img/servicefee.JPG');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -326,37 +340,44 @@ a:active.nav2 {
 
 #card1C {
     background-image: url('../img/Cards/GroverRookBusinessCard.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card2C {
     background-image: url('../img/Cards/DJChozen.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card3C {
     background-image: url('../img/Cards/BookCard.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain
 }
 
 #card4C {
     background-image: url('../img/Cards/SeedCovenantSeedMinistriesFlierflat.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card5C {
     background-image: url('../img/Cards/RouteRunnersExpressBCJaQuezfront.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card6C {
     background-image: url('../img/Cards/communitymotors.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card7C {
     background-image: url('../img/Cards/WDCDPBC.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -366,38 +387,27 @@ a:active.nav2 {
 /* FLYER picture section */
 
 #card1F {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
-    background-size: cover;
+    background-image: url('../img/Flyers/4X6VOTESTANBACKrevision1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card2F {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
-    background-size: cover;
+    background-image: url('../img/Flyers/FlawlessFridayscolorflier8x10.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card3F {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
-    background-size: cover;
+    background-image: url('../img/Flyers/IveyCopelandBeautySalonBCfront.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #card4F {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
-    background-size: cover;
-}
-
-#card5F {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
-    background-size: cover;
-}
-
-#card6F {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
-    background-size: cover;
-}
-
-#card7F {
-    background-image: url('../img/Trucks/IMG_2948.JPG');
-    background-size: cover;
+    background-image: url('../img/Flyers/AgapeMinistry.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -439,7 +449,6 @@ a:active.nav2 {
 
 .wilbur-txt {
     text-align: left;
-    text-justify: right;
     width: 60%;
     font-size: .6em;
 }
@@ -517,7 +526,9 @@ a:active.nav2 {
     height: 100px;
 }
 
-#qualitybadge {
+#qualitybadge,
+#custombadge,
+#fastbadge {
     width: 30%
 }
 
