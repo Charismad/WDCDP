@@ -7,7 +7,7 @@ p {
 a:link.rightnav {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 a:visited.rightnav {
@@ -53,9 +53,8 @@ body {
     grid-row: 1 / 2;
     grid-column: 1 / 4;
     background-color: black;
-    padding: 15px;
     display: flex;
-    font-size: .8em;
+    font-size: .6em;
     justify-content: space-between;
     align-items: center;
 }
@@ -67,15 +66,18 @@ body {
 .svglogo {
     width: 20%;
     height: 50px;
+    margin: 0 auto;
+    padding-top: 12px;
+    margin-left: 10px;
 }
 
 .rightnav {
     justify-content: right;
-    margin-left: 1rem;
+    margin-left: 0.2rem
 }
 
 #logo {
-    width: 40%;
+    width: 50%;
     fill: white;
 }
 
@@ -100,7 +102,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 20px;
-    padding-top: 68px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     grid-row: 2 / 3;
     grid-column: 1 / 4;
 }
@@ -113,18 +116,24 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: normal;
     margin: -5px;
     color: white;
 }
 
 .hero-txt {
+    font-size: .8em;
     font-weight: 300;
     font-style: italic;
 }
 
+.h1-others {
+    align-items: center;
+}
+
 .aboutheader,
+.serviceheader,
 .contactheader {
     font-style: italic;
 }
@@ -140,7 +149,7 @@ h1 {
     grid-row: 3 / 4;
     grid-column: 1 / 4;
     text-align: center;
-    font-size: .8em;
+    font-size: .7em;
     padding-bottom: 15px;
 }
 
@@ -177,6 +186,8 @@ a:active.nav2 {
     width: 100%;
     margin: 0 auto;
     padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .featuredphoto {
@@ -190,7 +201,7 @@ a:active.nav2 {
     grid-column: 1 / 4;
     grid-row: 4 / 5;
     height: 200px;
-    width: 632px;
+    width: 80%;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -216,20 +227,181 @@ a:active.nav2 {
     position: absolute;
     left: 0;
     transition: all 1s ease;
+    padding: 0px;
 }
 
 .card {
     background-image: url('../img/Trucks/redtruck.jpeg');
     background-size: cover;
-    min-width: 200px;
+    min-width: 100%;
     height: 200px;
-    margin-right: 1rem;
+    margin-right: .5rem;
     display: inline-block;
 }
 
+
+/* TRUCK picture section */
+
 #card1T {
-    background-image: url('../img/Trucks/IMG_2948.JPG')
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
 }
+
+#card2T {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card3T {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card4T {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card5T {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card6T {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card7T {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+
+/* END Truck picture section */
+
+
+/* SIGN picture section */
+
+#card1S {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card2S {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card3S {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card4S {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card5S {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card6S {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card7S {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+
+/* END Sign picture section */
+
+
+/* CARD picture section */
+
+#card1C {
+    background-image: url('../img/Cards/GroverRookBusinessCard.jpg');
+    background-size: cover;
+}
+
+#card2C {
+    background-image: url('../img/Cards/DJChozen.jpg');
+    background-size: cover;
+}
+
+#card3C {
+    background-image: url('../img/Cards/BookCard.jpg');
+    background-size: cover;
+}
+
+#card4C {
+    background-image: url('../img/Cards/SeedCovenantSeedMinistriesFlierflat.jpg');
+    background-size: cover;
+}
+
+#card5C {
+    background-image: url('../img/Cards/RouteRunnersExpressBCJaQuezfront.jpg');
+    background-size: cover;
+}
+
+#card6C {
+    background-image: url('../img/Cards/communitymotors.jpg');
+    background-size: cover;
+}
+
+#card7C {
+    background-image: url('../img/Cards/WDCDPBC.jpg');
+    background-size: cover;
+}
+
+
+/* END CARD picture Section */
+
+
+/* FLYER picture section */
+
+#card1F {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card2F {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card3F {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card4F {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card5F {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card6F {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+#card7F {
+    background-image: url('../img/Trucks/IMG_2948.JPG');
+    background-size: cover;
+}
+
+
+/* END Truck picture section */
 
 
 /* END of carousel */
@@ -251,21 +423,25 @@ a:active.nav2 {
     grid-column: 1 / 4;
     background-color: #222222;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 .wilbur-img {
-    clip-path: circle(40% at 70% 40%);
-    width: 50%;
-    justify-content: right;
+    justify-content: left;
+    width: 30%;
+}
+
+#WDpic {
+    border-radius: 50%;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .wilbur-txt {
     text-align: left;
-    text-justify: center;
-    font-size: 1em;
+    text-justify: right;
+    width: 60%;
+    font-size: .6em;
 }
 
 .charisma {
@@ -273,22 +449,29 @@ a:active.nav2 {
     grid-column: 1 / 4;
     background-color: #48474C;
     display: flex;
-    justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
+    width: 100%;
 }
 
 .charisma-img {
-    clip-path: circle(40% at 50% 50%);
-    width: 50%;
+    border-radius: 50%;
+    width: 30%;
     justify-items: left;
+    padding-right: 5px;
+}
+
+#charismapic {
+    border-radius: 50%;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .charisma-txt {
     text-align: right;
-    text-justify: center;
-    font-size: 1em;
-    padding-right: 10px;
+    width: 60%;
+    padding: 10px;
+    font-size: .6em;
 }
 
 .vision {
@@ -303,9 +486,9 @@ a:active.nav2 {
 .vision-txt {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
-    text-align: center;
     color: white;
-    padding: 10px;
+    padding: 5px;
+    font-size: .6em;
 }
 
 
@@ -385,6 +568,7 @@ legend {
     text-align: center;
     font-size: 1rem;
     color: white;
+    padding-bottom: 10px;
 }
 
 .form-container {
@@ -410,10 +594,15 @@ input[type=text],
 input[type=email],
 textarea {
     width: 90%;
+    height: 30%;
     padding: 20px;
     margin-bottom: 1.5em;
     border: 2px solid #950C13;
     border-radius: 5px;
+}
+
+label {
+    color: white;
 }
 
 input:hover,
@@ -483,6 +672,15 @@ button {
 
 /* footer */
 
+.index-footer {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column: 1 / 4;
+    background-color: #48474C;
+    padding: 10px;
+    text-align: left;
+}
+
 .footer {
     grid-row-start: 5;
     grid-row-end: 6;
@@ -493,7 +691,7 @@ button {
 }
 
 .footer-txt {
-    font-size: .8em;
+    font-size: .65em;
 }
 
 
@@ -504,8 +702,193 @@ button {
 
 add breakpoint at 500px for long header
 
-
 */
+
+@media only screen and (min-width: 375px) {
+    .firstnavbar {
+        font-size: .8em;
+    }
+    .featuredgallery {
+        padding-bottom: 210px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .hero {
+        background-image: url("../img/LongRedherobackground.png");
+    }
+    .hero-others {
+        background-image: url("../img/RRLongRedherobackground.png");
+    }
+    #logo {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .firstnavbar {
+        font-size: 1.2em;
+    }
+    .svglogo {
+        width: 20%;
+        height: 50px;
+        margin: 0 auto;
+        padding-top: 12px;
+        margin-left: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .others {
+        font-size: 2.2em;
+    }
+    .hero-txt {
+        font-size: 1.3em;
+    }
+    .others {
+        padding: 30px 0px 30px 0px;
+    }
+    #logo {
+        width: 25%;
+    }
+    .imgnav {
+        font-size: 1.2em;
+    }
+    .featuredgallery {
+        padding-bottom: 210px;
+    }
+    .wrapper {
+        margin-bottom: 10%;
+    }
+    .index-footer {
+        font-size: 1em;
+    }
+    .footer-txt {
+        font-size: 1em;
+    }
+    .others {
+        font-size: 1.5em;
+    }
+    .cbutton {
+        margin-right: 550px;
+    }
+    .carousel {
+        height: 100%;
+    }
+    .card {
+        height: 100%;
+    }
+    .wilbur-txt {
+        font-size: 1em;
+    }
+    .charisma-txt {
+        font-size: 1em;
+    }
+    .vision-txt {
+        font-size: 1em;
+    }
+    .serviceheader {
+        padding-bottom: 20px;
+    }
+    .servicecards {
+        padding: 35px;
+    }
+    .servicecard {
+        width: 300px;
+    }
+    form {
+        height: 52vh;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 777px) {
+    .cbutton {
+        margin-right: 310%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .firstnavbar {
+        font-size: 1em;
+    }
+    .svglogo {
+        width: 20%;
+        height: 50px;
+        margin: 0 auto;
+        padding-top: 12px;
+        margin-left: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .others {
+        font-size: 2em;
+    }
+    .hero-txt {
+        font-size: 1em;
+    }
+    .others {
+        padding: 30px 0px 30px 0px;
+    }
+    #logo {
+        width: 15%;
+    }
+    .imgnav {
+        font-size: 1em;
+    }
+    .main {
+        overflow-x: hidden;
+    }
+    .wilbur-img,
+    .charisma-img {
+        width: 20%;
+    }
+    .wilbur-img,
+    .charisma-img {
+        width: 40%;
+    }
+    #WDpic {
+        padding-left: 60px;
+        width: 50%;
+    }
+    #charismapic {
+        width: 50%;
+    }
+    .wilbur-txt,
+    .charisma-txt {
+        font-size: 1.1em;
+        padding-left: 10px;
+    }
+    .vision-txt {
+        font-size: 1.1em;
+    }
+    .contact-header {
+        font-size: 1.5em;
+    }
+    .form-container {
+        height: 100vh;
+    }
+    form {
+        width: 80%;
+        height: 60%;
+    }
+    .socials {
+        padding-bottom: 200px;
+    }
+    .footer-txt {
+        font-size: 1.1em;
+    }
+    .index-footer {
+        font-size: 1em;
+    }
+    .cbutton {
+        margin-right: 315%;
+    }
+    .card {
+        min-width: 50%;
+    }
+}
 
 
 /* END of media query */
